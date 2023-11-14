@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>panel de control</title>
+    
+    <meta charset=utf-8>
+    <link rel= "stylesheet" href="estilo/login.css">
+    </head>
+    <body>
+       <div id="contenedor">
+        <div id="logo">
+        <img src="img/logo.png">
+        </div>
+        <div id="caja">
+        <form action="login.php" 
+           method="POST">
+            <p>nombre de usuario o correo electronico</p>
+            <input type="text" 
+            name="usuario">
+            <p>Contraseña</p>
+            <input type="password" 
+            name= "contrasena">
+            <input type="submit"  
+            value="Acceder">
+        </form>
+          <div class="clearfix"></div>
+           </div>
+           <div id="olvidado">
+               <p>
+                  <a href="olvidado.php">
+                   ¿Has olvidado tu contraseña?
+               </a>
+               </p>
+           </div>
+        <div id="privacidad">
+            <a href ="privacidad.php">
+            </a>
+        </div>
+        </div>
+    </body>
+</html>
